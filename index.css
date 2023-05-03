@@ -1,0 +1,32 @@
+body {
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./images/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 90vh;
+    color: #1A1919; 
+}
+
+.product_list {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+
+.product_tile {
+    opacity: 80%;
+    margin: 1rem 1rem; 
+    padding: 1rem 1rem; 
+    background: #E7E4E4;
+    width: 15%; 
+    height: 300px; 
+  
+  
+}
+
